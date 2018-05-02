@@ -1,0 +1,15 @@
+<p>
+  my-home-component works!
+</p>
+
+<h1>Movies</h1>
+<ul>
+  <li *ngFor="let m of movies">
+    <p>{{ m.title }}</p>
+    
+    <img [src]="m.poster" alt="poster" class="im-user">
+    <td>
+      <a [routerLink]="['/movie',m.id]"> {{m.title}} (link) </a>
+    </td>
+  </li>
+</ul>
