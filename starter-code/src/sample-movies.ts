@@ -18,7 +18,7 @@ export const movies = [
       "Gil Bellows"
     ],
     hours:["1","2"],
-    room: 5
+    room: 1
 
   }, {
     id: 2,
@@ -39,7 +39,7 @@ export const movies = [
       "Sterling Hayden"
     ],
     hours:["1","2"],
-    room: 4
+    room: 2
   }, {
     id: 3,
     title: "The Godfather Part II",
@@ -79,7 +79,7 @@ export const movies = [
       "Gary Oldman"
     ],
     hours:["1","2"],
-    room: 2
+    room: 4
   }, {
   
     id: 5,
@@ -100,7 +100,8 @@ export const movies = [
       "Embeth Davidtz"
     ],
     hours:["1","2"],
-    room: 1
+    room: 5
+    
   }
 ]
 

@@ -1,0 +1,18 @@
+img {
+  width: 550px;
+}
+
+.synopsis {
+  width: 550px;
+  text-align: center;
+}
+
+.container {
+  width: 550px;
+}
+
+a {
+  font-size: 25px;
+  color: rgb(202, 157, 157);
+  margin-bottom: 45px;
+}

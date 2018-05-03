@@ -1,10 +1,14 @@
-<p>
-  my-movie-component works!
-</p>
 
-
+<a [routerLink]="['/home']">Back to movies</a>
+<div class="container">
 <h2>{{movie.title}}</h2>
-<p>{{movie.director}}</p>
-<p>{{movie.year}}</p>
+<h4>{{movie.director}}</h4>
+<h4>Year: {{movie.year}}</h4>
 
+<h4>Genre: {{movie.genres}}</h4>
+<h4>Actors: {{movie.actors}}</h4>
+<div class="synopsis">
+<h4>Synopsis: {{movie.synopsis}}</h4>
+</div>
 <img [src]="movie.poster" alt="poster" class="im-user">
+</div>

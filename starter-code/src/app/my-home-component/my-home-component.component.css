@@ -1,0 +1,19 @@
+img {
+    width: 250px;
+}
+
+.movies {
+    
+    width: 250px;
+}
+
+ul {
+    list-style-type: none;
+  }
+
+  a {
+    font-size: 20px;
+    color: rgb(202, 157, 157);
+    margin-bottom: 45px;
+  }
+  

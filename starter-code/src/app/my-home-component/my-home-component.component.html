@@ -1,15 +1,25 @@
-<p>
-  my-home-component works!
-</p>
+
+<div class="container">
+
 
 <h1>Movies</h1>
+
+<div>
 <ul>
-  <li *ngFor="let m of movies">
-    <p>{{ m.title }}</p>
+  <div class="row movies text text-center" >
+  <li class="d-flex-col justify-content-between text-center movies" *ngFor="let m of movies">
+    <h3>Room {{m.room}}</h3>
+    <h2>{{ m.title }}</h2>
+    <td>
+        <a [routerLink]="['/movie',m.id]"> See details </a>
+      </td>
     
     <img [src]="m.poster" alt="poster" class="im-user">
-    <td>
-      <a [routerLink]="['/movie',m.id]"> {{m.title}} (link) </a>
-    </td>
+    
   </li>
+</div>
 </ul>
+
+</div>
+
+</div>
